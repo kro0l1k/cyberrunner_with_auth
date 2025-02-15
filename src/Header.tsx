@@ -41,7 +41,9 @@ const styles: StyleMap = {
 const Header: React.FC = () => {
   return (
     <header style={styles.header}>
-      <div style={styles.logo}>CYBERRUNNER</div>
+      <Link to="/" style={styles.logo}>
+        🦾 CYBERRUNNER
+      </Link>
       <nav style={styles.nav}>
         <Link to="/tutorials" style={styles.link}>
           Tutorials
@@ -49,12 +51,24 @@ const Header: React.FC = () => {
         <Link to="/challenge" style={styles.link}>
           Challenge
         </Link>
-        <Link to="/github" style={styles.link}>
-          GitHub
-        </Link>
-        <Link to="/docs" style={styles.link}>
-          Docs
-        </Link>
+        <a
+          href="https://github.com/thomasbi1/cyberrunner"
+          target="_blank"
+          rel="noreferrer"
+          style={styles.link}
+          className="nav-link"
+        >
+          🧑‍💻 GitHub
+        </a>
+        <a
+          href="https://cyberrunner.readthedocs.io/"
+          target="_blank"
+          rel="noreferrer"
+          style={styles.link}
+          className="nav-link"
+        >
+          📄 Docs
+        </a>
         <Link to="/signup" style={styles.link}>
           2025 Signup
         </Link>

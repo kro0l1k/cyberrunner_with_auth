@@ -11,6 +11,8 @@ import {
 import Header from "./Header"; // Import the new Header component
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Challenge from "./Challenge"; // Import the Challenge component
+import Tutorials from "./Tutorials"; // New import for Tutorials
+import Home from "./Home"; // New Home component
 
 interface StyleMap {
   [key: string]: React.CSSProperties;
@@ -102,36 +104,11 @@ const App: React.FC = () => {
     <Router>
       <div style={styles.container}>
         <Header /> {/* Use the new Header component */}
-        <main style={styles.main}>
-          <h1 style={styles.title}>
-            CYBERRUNNER CHALLENGE{" "}
-            <span style={styles.highlight}>REMAINS UNDEFEATED</span>.
-          </h1>
-          <p style={styles.subtitle}>
-            Train an algorithm to solve unseen mazes in 10 minutes.
-          </p>
-          <p style={styles.subtitle}>
-            $10,000 prize pool for the grand challenge.
-          </p>
-
-          <div style={styles.challengeSection}>
-            <h2 style={styles.challengeHeading}>Grand Challenge</h2>
-            <p>Solve unseen mazes in 10 minutes</p>
-            <p>Deadline: June 2025</p>
-          </div>
-
-          <div style={styles.challengeSection}>
-            <h2 style={styles.challengeHeading}>Bounties</h2>
-            <p>Complete smaller challenges</p>
-            <p>Win hardware time and prizes</p>
-          </div>
-
-          <button style={styles.joinButton} onClick={handleJoinClick}>
-            JOIN THE CHALLENGE
-          </button>
-        </main>
         <Routes>
+          <Route path="/" element={<Home />} /> {/* Homepage content */}
           <Route path="/challenge" element={<Challenge />} />
+          <Route path="/tutorials" element={<Tutorials />} />{" "}
+          {/* New Route for Tutorials */}
           {/* Add other routes here */}
         </Routes>
       </div>
