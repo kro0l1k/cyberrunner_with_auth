@@ -1,0 +1,71 @@
+.challenge-container {
+  padding: 2rem;
+  color: #fff;
+  background-color: #000;
+  font-family: 'Arial', sans-serif;
+}
+
+.hero-section {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-section .subtitle {
+  font-size: 1.5rem;
+  color: #ff00ff;
+}
+
+.video-section {
+  margin-bottom: 2rem;
+}
+
+.video-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-section {
+  margin-bottom: 2rem;
+}
+
+.about-section .text-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.challenge-details {
+  margin-bottom: 2rem;
+}
+
+.challenge-details .card {
+  background-color: #111;
+  padding: 1rem;
+  border: 1px solid #555;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.bounties-grid {
+  text-align: center;
+}
+
+.bounty-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.bounty-cards .card {
+  flex: 1 1 200px;
+  background-color: #111;
+  padding: 1rem;
+  border: 1px solid #555;
+  text-align: center;
+}
