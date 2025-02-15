@@ -3,9 +3,7 @@ import "./tutorials.css";
 
 const Tutorials: React.FC = () => {
   return (
-    <div>
-      <h1>Tutorials Page</h1>
-      <p>Welcome to the Tutorials page.</p>
+    <main style={{ padding: "2rem", textAlign: "center" }}>
       {/* Hero Section */}
       <section className="hero-section">
         <h1>BUILD YOUR CYBERRUNNER</h1>
@@ -128,7 +126,7 @@ const Tutorials: React.FC = () => {
           </a>
         </div>
       </section>
-    </div>
+    </main>
   );
 };
 

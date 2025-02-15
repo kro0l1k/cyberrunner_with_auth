@@ -20,8 +20,10 @@ interface StyleMap {
 
 const styles: StyleMap = {
   container: {
+    width: "90%", // New width for the entire website
+    margin: "0 auto", // Center the content horizontally
     minHeight: "100vh",
-    backgroundColor: "#000",
+    backgroundColor: "#000", // Ensuring the background is black
     color: "#fff",
     fontFamily: "monospace",
     display: "flex",
