@@ -1,13 +1,5 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-import {
-  SignedIn,
-  SignedOut,
-  SignInButton,
-  UserButton,
-} from "@clerk/clerk-react";
 import Header from "./Header"; // Import the new Header component
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Challenge from "./Challenge"; // Import the Challenge component
@@ -95,11 +87,9 @@ const styles: StyleMap = {
 };
 
 const App: React.FC = () => {
-  const [count, setCount] = useState(0);
-
   const handleJoinClick = () => {
     // Navigate to your "about the challenge" page
-    console.log("Join the challenge");
+    console.log("Join the Discord server to learn more!");
   };
 
   return (

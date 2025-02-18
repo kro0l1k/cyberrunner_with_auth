@@ -39,6 +39,12 @@ const Challenge: React.FC = () => {
               "hands" to navigate the marble through the maze, learning and
               improving with each attempt.
             </p>
+            <p>
+              Through this challenge, you will learn how to build your own
+              robot, train the RL model, and run your code in action. We aim to
+              make it as affordable and accessible as possible, so everyone can
+              join the fun and learn!
+            </p>
           </div>
         </section>
 

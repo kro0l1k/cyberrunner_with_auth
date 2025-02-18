@@ -53,9 +53,15 @@ const Home: React.FC = () => {
           fontWeight: "bold",
           fontSize: "1rem",
         }}
-        onClick={() => console.log("Join the challenge")}
+        onClick={
+          () => {
+            console.log("Join the challenge"),
+              (window.location.href = "https://discord.gg/WD5BSAUf");
+          }
+          // take the user to the link https://discord.gg/WD5BSAUf
+        }
       >
-        JOIN THE CHALLENGE
+        JOIN THE DISCORD CHANNEL TO LEARN MORE!
       </button>
     </main>
   );
