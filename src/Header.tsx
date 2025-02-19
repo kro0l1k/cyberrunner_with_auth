@@ -69,9 +69,7 @@ const Header: React.FC = () => {
         >
           📄 Docs
         </a>
-        <Link to="/signup" style={styles.link}>
-          2025 Signup
-        </Link>
+
       </nav>
       <div style={styles.authButtons}>
         <SignedOut>
