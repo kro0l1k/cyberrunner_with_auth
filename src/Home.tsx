@@ -58,9 +58,9 @@ const Home: React.FC = () => {
           fontWeight: "bold",
           fontSize: "1rem",
         }}
-        onClick={() => console.log("Join the challenge")}
+        onClick={() => window.open("https://discord.gg/VaBsTHQx", "_blank")}
       >
-        JOIN THE CHALLENGE
+        JOIN THE DISCORD
       </button>
     </main>
   );
