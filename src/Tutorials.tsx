@@ -1,5 +1,5 @@
 import React from "react";
-import "./tutorials.css";
+import "./Tutorials.css";
 
 const Tutorials: React.FC = () => {
   return (
