@@ -1,8 +1,13 @@
 import React from "react";
+import Spline from '@splinetool/react-spline';
+
 
 const Home: React.FC = () => {
   return (
     <main style={{ padding: "2rem", textAlign: "center" }}>
+      <div style={{ height: "70vh", marginBottom: "2rem" }}>
+        <Spline scene="https://prod.spline.design/3lEZMizMlBTTfd9K/scene.splinecode" />
+      </div>
       <h1 style={{ fontSize: "2rem", marginBottom: "1rem" }}>
         CYBERRUNNER CHALLENGE{" "}
         <span style={{ color: "#ff00ff" }}>REMAINS UNDEFEATED</span>.
