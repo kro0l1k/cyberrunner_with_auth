@@ -1,11 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {
-  SignedIn,
-  SignedOut,
-  SignInButton,
-  UserButton,
-} from "@clerk/clerk-react";
 
 interface StyleMap {
   [key: string]: React.CSSProperties;
@@ -45,40 +39,16 @@ const Header: React.FC = () => {
         🦾 CYBERRUNNER
       </Link>
       <nav style={styles.nav}>
-        <Link to="/tutorials" style={styles.link}>
-          Tutorials
+        <Link to="/" style={styles.link}>
+          Home
         </Link>
         <Link to="/challenge" style={styles.link}>
           Challenge
         </Link>
-        <a
-          href="https://github.com/thomasbi1/cyberrunner"
-          target="_blank"
-          rel="noreferrer"
-          style={styles.link}
-          className="nav-link"
-        >
-          🧑‍💻 GitHub
-        </a>
-        <a
-          href="https://cyberrunner.readthedocs.io/"
-          target="_blank"
-          rel="noreferrer"
-          style={styles.link}
-          className="nav-link"
-        >
-          📄 Docs
-        </a>
-
+        <Link to="/tutorials" style={styles.link}>
+          Tutorials
+        </Link>
       </nav>
-      <div style={styles.authButtons}>
-        <SignedOut>
-          <SignInButton />
-        </SignedOut>
-        <SignedIn>
-          <UserButton />
-        </SignedIn>
-      </div>
     </header>
   );
 };
