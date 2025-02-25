@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Challenge from "./Challenge"; // Import the Challenge component
 import Tutorials from "./Tutorials"; // New import for Tutorials
 import Home from "./Home"; // New Home component
+import Questionnaire from "./Questionnaire"; // Import the Questionnaire component
 
 interface StyleMap {
   [key: string]: React.CSSProperties;
@@ -98,6 +99,8 @@ const App: React.FC = () => {
           <Route path="/challenge" element={<Challenge />} />
           <Route path="/tutorials" element={<Tutorials />} />{" "}
           {/* New Route for Tutorials */}
+          <Route path="/questionnaire" element={<Questionnaire />} />{" "}
+          {/* New Route for Questionnaire */}
           {/* Add other routes here */}
         </Routes>
       </div>

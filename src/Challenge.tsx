@@ -58,18 +58,17 @@ const Challenge: React.FC = () => {
             <div className="bounty-cards">
               <div className="card">
                 <h4>MARCH 2025</h4>
-                <p>Set up your environment and run first simulation</p>
-                <p>Reward: Hardware testing time</p>
+                <p>
+                  Build your robot and learn how to write code that controls
+                </p>
               </div>
               <div className="card">
                 <h4>APRIL 2025</h4>
                 <p>Achieve basic maze navigation</p>
-                <p>Reward: Custom hardware kit</p>
               </div>
               <div className="card">
                 <h4>MAY 2025</h4>
                 <p>Complete advanced challenges</p>
-                <p>Reward: Mentorship session</p>
               </div>
             </div>
           </div>
