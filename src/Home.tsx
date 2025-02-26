@@ -11,6 +11,17 @@ const Home: React.FC = () => {
         minHeight: "100vh",
       }}
     >
+      {/* 
+         ,     ,
+        (\\____/)
+         (_oo_)
+           (O)
+         __||__    \\)
+      []/______\\[] /
+      / \\______/ \\/
+      /    /__\\ 
+     (\\   /____\\ 
+      */}
       <div style={{ height: "70vh", marginBottom: "2rem" }}>
         <Spline scene="https://prod.spline.design/3lEZMizMlBTTfd9K/scene.splinecode" />
       </div>
