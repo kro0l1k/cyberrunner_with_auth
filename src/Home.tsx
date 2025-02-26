@@ -15,8 +15,8 @@ const Home: React.FC = () => {
         <Spline scene="https://prod.spline.design/3lEZMizMlBTTfd9K/scene.splinecode" />
       </div>
       <h1 style={{ fontSize: "2rem", marginBottom: "1rem" }}>
-        CYBERRUNNER CHALLENGE{" "}
-        <span style={{ color: "#ff00ff" }}>REMAINS UNDEFEATED</span>.
+        CYBERRUNNER{" "}
+        <span style={{ color: "#ff00ff" }}>WILL TEACH YOU ROBOTICS</span>.
       </h1>
       <p style={{ fontSize: "1.1rem", marginBottom: "1rem" }}>
         Learn robotics and embboddied AI with an open-sourced platform.
@@ -36,7 +36,7 @@ const Home: React.FC = () => {
           fontWeight: "bold",
           fontSize: "1rem",
         }}
-        onClick={() => window.open("https://discord.gg/VaBsTHQx", "_blank")}
+        onClick={() => window.open("https://discord.gg/BZYUmvHBNQ", "_blank")}
       >
         JOIN THE DISCORD
       </button>
@@ -83,7 +83,7 @@ const Home: React.FC = () => {
           >
             Fill out this form.
           </button>
-          <p> We'll email you when this is ready.</p>
+          <p> and we'll email you when this is ready.</p>
         </section>
         <section
           style={{
