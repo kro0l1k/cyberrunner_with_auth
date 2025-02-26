@@ -1,6 +1,5 @@
 import React from "react";
 import Spline from "@splinetool/react-spline";
-import { Link } from "react-router-dom";
 
 const Home: React.FC = () => {
   return (
@@ -66,8 +65,7 @@ const Home: React.FC = () => {
           </h2>
           <p>Select which parts you need</p>
           <p>and build your own robot</p>
-          <Link
-            to="/questionnaire"
+          <button
             style={{
               display: "inline-block",
               marginTop: "1rem",
@@ -76,10 +74,15 @@ const Home: React.FC = () => {
               color: "#fff",
               textDecoration: "none",
               borderRadius: "4px",
+              border: "none",
+              cursor: "pointer",
+              fontWeight: "bold",
+              fontSize: "1rem",
             }}
+            onClick={() => window.open("https://tally.so/r/wz14pg", "_blank")}
           >
             Fill out this form.
-          </Link>
+          </button>
           <p> We'll email you when this is ready.</p>
         </section>
         <section
