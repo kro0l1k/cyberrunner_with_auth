@@ -11,17 +11,6 @@ const Home: React.FC = () => {
         minHeight: "100vh",
       }}
     >
-      {/* 
-         ,     ,
-        (\\____/)
-         (_oo_)
-           (O)
-         __||__    \\)
-      []/______\\[] /
-      / \\______/ \\/
-      /    /__\\ 
-     (\\   /____\\ 
-      */}
       <div style={{ height: "70vh", marginBottom: "2rem" }}>
         <Spline scene="https://prod.spline.design/3lEZMizMlBTTfd9K/scene.splinecode" />
       </div>
@@ -107,7 +96,6 @@ const Home: React.FC = () => {
           <h2 style={{ textDecoration: "underline", marginBottom: "0.5rem" }}>
             Bill of materials
           </h2>
-          <p>Order needed parts yourself</p>
           <p>Improve. Hack. Contribute.</p>
           <button
             style={{
@@ -128,7 +116,7 @@ const Home: React.FC = () => {
               )
             }
           >
-            Oder the parts yourself.
+            Order the parts yourself.
           </button>
         </section>
       </div>
